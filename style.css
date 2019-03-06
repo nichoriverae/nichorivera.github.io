@@ -10,6 +10,15 @@ body {
   color: #464646;
 }
 
+.has-bg-img {
+  background-image: url('assets/hammock.jpg');
+  background-size: cover;
+}
+
+.home h1, .home div{
+  color: #f5f5f5;
+}
+
 .resume object {
   height: 100vh;
 }
