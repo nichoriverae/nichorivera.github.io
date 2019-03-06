@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nicho Rivera</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/logo.png">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
+      <div class="menu container">
+        <div class="navbar-brand">
+          <a class="narbar-item">
+            <img src="assets/logo.png" alt="Nicho Rivera" width="50px" height="50px">
+          </a>
+          <a
+            role="button"
+            class="navbar-burger burger is-light"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBurger"
+            ><span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item is-light" href="#home">Home</a>
+            <a class="navbar-item is-light" href="#about">About</a>
+            <a class="navbar-item is-light" href="#resume">Resume</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- <div class="home__overlay hero">
+      <img src="hammock.jpg" alt="hammocking in the desert">
+    </div> -->
+    <section class="home section">
+      <a name="home"></a>
+      <div class="box has-text-centered">
+        <h1 class="home title">Full Stack Dev</h1>
+        <div class="home subtitle">
+          <p>A self taught developer specializing in Node and React</p>
+        </div>
+      </div>
+    </section>
+    <div class="columns">
+      <div class="column column-1"></div>
+      <div class="column is-four-fifths">
+        <section class="about section">
+          <a name="about"></a>
+          <h1 class="about about__title title">Just a little about me</h1>
+          <div class="about__description">
+            Thanks for visiting! I am a full stack developer with a passion for
+            creating solutions to complex problems. We live in a facinating time
+            in technology and emerging discoveries in blockchain, machine
+            learning, AI, and VR/AR inspire me. Contact me on twitter
+            (@coocoocachuuo) or github (@nichoriverae) and let's build something
+            unique together!
+          </div>
+        </section>
+        <section class="resume section">
+          <a name="resume"></a>
+          <h1 class="resume title">Check out my resume</h1>
+          <img src="assets/resume.png" alt="Resume - Nicho Rivera">
+          <div class="container has-text-centered">
+            <p>Looking for a pdf?</p>
+            <a class="button is-large is-info" href="assets/resume.pdf">Download it</a>
+          </div>
+        </section>
+      </div>
+      <div class="column"></div>
+    </div>
+  </body>
+</html>
